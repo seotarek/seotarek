@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">Tarek Mohamed profile banner</title>
+  <desc id="desc">A responsive banner with abstract system lines and nameplate text.</desc>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --panel: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --accent: #2563eb;
+      --accent-2: #14b8a6;
+      --grid: rgba(15, 23, 42, 0.09);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1220;
+        --panel: #0f172a;
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --accent: #60a5fa;
+        --accent-2: #2dd4bf;
+        --grid: rgba(148, 163, 184, 0.16);
+      }
+    }
+
+    .title {
+      fill: var(--text);
+      font: 700 58px/1.1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      fill: var(--muted);
+      font: 500 24px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .meta {
+      fill: var(--muted);
+      font: 500 18px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="var(--bg)" />
+      <stop offset="100%" stop-color="var(--panel)" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="var(--accent-2)" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="360" rx="34" fill="url(#bgGrad)" />
+  <rect x="32" y="32" width="1336" height="296" rx="26" fill="none" stroke="var(--grid)" />
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1040 76c68 0 116 43 116 96s-48 96-116 96" stroke="url(#accentGrad)" stroke-width="18" opacity="0.95" />
+    <path d="M1030 92c56 0 94 34 94 80s-38 80-94 80" stroke="var(--accent)" stroke-width="4" opacity="0.65" />
+    <path d="M1116 84l140 0" stroke="var(--grid)" stroke-width="2" />
+    <path d="M1116 176l140 0" stroke="var(--grid)" stroke-width="2" />
+    <path d="M1116 268l140 0" stroke="var(--grid)" stroke-width="2" />
+    <path d="M1040 172l-170 0" stroke="var(--grid)" stroke-width="2" />
+    <path d="M1040 172l-122 -58" stroke="var(--grid)" stroke-width="2" />
+    <path d="M1040 172l-122 58" stroke="var(--grid)" stroke-width="2" />
+    <circle cx="1118" cy="84" r="8" fill="var(--accent)" opacity="0.9" />
+    <circle cx="1118" cy="176" r="8" fill="var(--accent-2)" opacity="0.9" />
+    <circle cx="1118" cy="268" r="8" fill="var(--accent)" opacity="0.55" />
+    <circle cx="878" cy="114" r="5" fill="var(--accent-2)" opacity="0.8" />
+    <circle cx="852" cy="172" r="5" fill="var(--accent)" opacity="0.8" />
+    <circle cx="878" cy="230" r="5" fill="var(--accent-2)" opacity="0.8" />
+    <path d="M90 84h430" stroke="var(--grid)" stroke-width="2" />
+    <path d="M90 114h286" stroke="var(--grid)" stroke-width="2" />
+    <path d="M90 144h370" stroke="var(--grid)" stroke-width="2" />
+    <path d="M90 198h318" stroke="var(--grid)" stroke-width="2" />
+    <path d="M90 228h392" stroke="var(--grid)" stroke-width="2" />
+    <path d="M90 258h270" stroke="var(--grid)" stroke-width="2" />
+  </g>
+
+  <text x="90" y="148" class="title">Tarek Mohamed</text>
+  <text x="90" y="194" class="subtitle">Software Architect &amp; Enterprise Engineer</text>
+  <text x="90" y="232" class="meta">Enterprise systems · Cloud infrastructure · Mobile products · AI integration</text>
+  <text x="90" y="266" class="meta">Cairo, Egypt · Public work across GitHub and tarek-mohamed.me.eg</text>
+</svg>
