@@ -4,107 +4,71 @@
 
 <h1 align="center">Tarek Mohamed</h1>
 
-<p align="center"><strong>Software Architect & Enterprise Engineer</strong></p>
+<p align="center"><strong>Software Architect, AI Systems Engineer & Cybersecurity Specialist</strong></p>
 
 <p align="center">
-	I build enterprise systems, cloud infrastructure, and mobile products that are designed to ship cleanly, scale predictably, and stay maintainable.
+	I design enterprise-grade distributed systems, secure autonomous AI agent workflows, and cloud-native platforms engineered for resilience and scalability.
 </p>
 
 <p align="center">
-	Cairo, Egypt · 17+ years of experience · Public work across GitHub and <a href="https://tarek-mohamed.me.eg">tarek-mohamed.me.eg</a>
+	<a href="https://tarek-mohamed.me.eg"><img src="https://img.shields.io/badge/Website-tarek--mohamed.me.eg-blue?style=flat-square&logo=google-chrome" alt="Website" /></a>
+	<a href="https://zenodo.org/records/22731104"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22731104-success?style=flat-square&logo=doi" alt="DOI" /></a>
+	<a href="https://github.com/seotarek"><img src="https://img.shields.io/badge/GitHub-seotarek-181717?style=flat-square&logo=github" alt="GitHub" /></a>
+	<img src="https://img.shields.io/badge/Focus-AI%20Security%20%26%20MCP-orange?style=flat-square" alt="Focus" />
 </p>
 
 <div align="center">
 	<a href="https://tarek-mohamed.me.eg/start-project">Start a Project</a>
 	&nbsp;·&nbsp;
-	<a href="https://github.com/seotarek">GitHub Profile</a>
+	<a href="https://zenodo.org/records/22731104">Research & Publications</a>
 	&nbsp;·&nbsp;
-	<a href="https://tarek-mohamed.me.eg">Website</a>
+	<a href="https://github.com/seotarek?tab=repositories">Open Source Repositories</a>
 </div>
 
 <br />
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## Public Repository Landscape
+## 🔬 Featured Research & Publications
 
-My public repositories cluster around a few clear themes: enterprise PHP/Laravel systems, Dockerized messaging and API services, Flutter mobile products, Zig-based AI infrastructure, and shell-driven server automation.
+### [LightGuard-Agent: A Lightweight Defense Architecture Against Indirect Prompt Injection in Tool-Calling AI Agents](https://github.com/seotarek/LightGuard-Agent)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22731104.svg)](https://doi.org/10.5281/zenodo.22731104)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-- Enterprise web systems: Laravel dashboards, hosting panels, and Arabic admin experiences.
-- Messaging and API automation: WhatsApp HTTP API infrastructure and service orchestration.
-- Mobile products: offline-first billing, POS, and retail workflow apps.
-- AI delivery and local tooling: compact assistant infrastructure and portable local AI environments.
-- Server operations: cPanel and CloudLinux maintenance scripts for recurring tasks.
+- **Problem:** Autonomous AI agents utilizing external tools and the **Model Context Protocol (MCP)** are susceptible to Indirect Prompt Injection (IPI) via poisoned external data.
+- **Solution:** A sub-millisecond (< 0.1 ms) three-tier defense framework combining deterministic syntactic isolation, semantic intent heuristics, and an execution policy action firewall.
+- **Results:** 100.0% mitigation rate across adversarial test suites with zero false positives.
+- **Permanent DOI:** [`10.5281/zenodo.22731104`](https://doi.org/10.5281/zenodo.22731104) | [Read Paper Manuscript](https://github.com/seotarek/LightGuard-Agent/blob/main/paper/paper.md)
 
-## Selected Capabilities
+---
 
-<div>
-	<p><strong>Messaging and API services</strong><br />
-	Docker-first backend services for session-based messaging, automation endpoints, and service orchestration.<br />
-	Tech: TypeScript, JavaScript, Docker, HTML, Python</p>
+## 🚀 Key Open Source & Tooling
 
-	<p><strong>Compact AI infrastructure</strong><br />
-	Minimal-footprint assistant infrastructure and portable AI environments designed for fast startup and low overhead.<br />
-	Tech: Zig, Nix, Dockerfile, Shell, Python</p>
+- **[LightGuard-Agent](https://github.com/seotarek/LightGuard-Agent):** Production guardrails for securing agentic tool execution and MCP data streams.
+- **[lovable-pro](https://github.com/seotarek/lovable-pro):** Native chat extension with persistent prompting and state management.
+- **[Hcnsec-AI-Assistant](https://github.com/seotarek/Hcnsec-AI-Assistant):** VS Code AI coding companion with contextual sidebar orchestration.
+- **[colabrdp](https://github.com/seotarek/colabrdp):** Remote GUI interface for accelerated machine learning and cloud development tasks.
 
-	<p><strong>Offline mobile commerce</strong><br />
-	Offline-first POS and billing experiences with barcode scanning, thermal printing, and local persistence.<br />
-	Tech: Flutter, Dart, flutter_bloc, go_router, Hive, mobile_scanner, print_bluetooth_thermal</p>
+---
 
-	<p><strong>Laravel administration systems</strong><br />
-	Arabic dashboards, admin panels, and hosting interfaces for content, SEO, notifications, and server management.<br />
-	Tech: PHP, Laravel, Blade, JavaScript, CSS, Shell</p>
+## 🛠️ Core Capabilities & Technology Stack
 
-	<p><strong>Server automation</strong><br />
-	Operational scripts for cPanel, CloudLinux, and Linux maintenance workflows.<br />
-	Tech: Shell, Batchfile</p>
-</div>
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **AI Systems & Security** | Model Context Protocol (MCP), LLM Security & Prompt Guardrails, Multi-Agent Orchestration, PyTorch, Python |
+| **Enterprise Architecture** | Laravel 11, PHP 8+, NestJS, Microservices, Multi-Tenant Data Isolation, High-Concurrency APIs |
+| **Frontend & Mobile** | React, Next.js, TypeScript, Tailwind CSS, Flutter, Jetpack Compose, Kotlin |
+| **Cloud & Infrastructure** | Docker, Linux, Redis, PostgreSQL (pgvector), MySQL, SQLite, Webhook Gateways |
 
-## Current Focus
+---
 
-<p>
-	<strong>Followix CRM</strong> is an in-progress multi-tenant CRM platform built around Laravel 11, Blade, Tailwind CSS, Alpine.js, MySQL, SQLite, Firebase Realtime Database, and scheduled background processing.
-</p>
-
-<p>
-	It is shaped around enterprise CRM operations, tenant-scoped data isolation, WhatsApp gateway integration, AI-assisted conversation handoff, campaign scheduling, and secure admin workflows.
-</p>
-
-<ul>
-	<li>Multi-tenant architecture with scoped organization data.</li>
-	<li>WhatsApp gateway abstraction across multiple providers.</li>
-	<li>AI handoff pipeline for automated and human-assisted conversations.</li>
-	<li>Queue-driven delivery and scheduled campaign pacing.</li>
-	<li>Production-aware deployment rules for shared hosting environments.</li>
-</ul>
-
-## Working Domains
-
-- Enterprise platforms and admin systems.
-- WhatsApp and service-layer automation.
-- Offline-first mobile point-of-sale and billing experiences.
-- Local AI delivery and portable runtime environments.
-- Linux hosting, cPanel, and CloudLinux operations.
-- Practical server automation and maintenance tooling.
-
-## Stack by Use
-
-| Area | What I actually use |
-| --- | --- |
-| Backend & APIs | PHP, Laravel, TypeScript, JavaScript, Shell |
-| Frontend | Blade, HTML, CSS, JavaScript, React, Next.js |
-| Mobile | Flutter, Dart, flutter_bloc, go_router, mobile_scanner |
-| AI & Automation | Zig, Python, Jupyter Notebook, PowerShell, Batchfile |
-| Infrastructure | Docker, Nix, Linux, AWS, GCP, Kubernetes |
-| Data & Storage | Hive, MySQL, SQLite |
-
-## Notes From The Site
-
-- The site positions me as a software architect and enterprise engineer focused on enterprise systems, cloud infrastructure, mobile applications, and AI integration.
-- It also highlights public-facing work across software architecture, enterprise solutions, and project delivery for clients in Egypt and abroad.
+## 🌐 Current Engineering Focus: Followix CRM & Enterprise MCP
+- **Multi-tenant CRM Engine:** Scoped data isolation, scheduled queuing, and intelligent conversation handoff.
+- **Automated Messaging Pipelines:** High-throughput WhatsApp service abstraction with automated webhook verification.
+- **Safe Agentic Tooling:** Embedding real-time defense layers into LLM tool-calling loops.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 <p align="center">
-	<a href="https://tarek-mohamed.me.eg/start-project">If you want to build something serious, start here.</a>
+	<a href="https://tarek-mohamed.me.eg/start-project">Looking for enterprise software architecture or secure AI integrations? Let's connect.</a>
 </p>
