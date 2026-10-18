@@ -9,24 +9,24 @@
 </p>
 
 <p align="center">
-  I design high-performance systems, secure autonomous AI agent runtimes, and resilient cloud-native platforms. My work bridges <strong>deep systems programming in Rust</strong> (creative engines, SIMD, binary parsers), <strong>AI security research</strong> (sub-millisecond prompt injection firewalls), and <strong>high-concurrency distributed architectures</strong>.
+  I design high-performance systems, secure autonomous AI agent runtimes, and resilient cloud-native platforms. My work bridges <strong>deep systems programming in Rust</strong> (creative engines, SIMD, binary parsers), <strong>AI security research</strong> (sub-millisecond prompt injection firewalls), and <strong>high-concurrency distributed architectures</strong> across Python, TypeScript, and Kotlin.
 </p>
 
 <p align="center">
   <a href="https://tarek-mohamed.me.eg"><img src="https://img.shields.io/badge/Website-tarek--mohamed.me.eg-2563eb?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
   <a href="https://zenodo.org/records/22731104"><img src="https://img.shields.io/badge/Research_DOI-10.5281%2Fzenodo.22731104-success?style=flat-square&logo=doi&logoColor=white" alt="DOI" /></a>
   <a href="https://github.com/seotarek"><img src="https://img.shields.io/badge/GitHub-seotarek-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Core_Stack-Rust%20%7C%20Python%20%7C%20TypeScript%20%7C%20MCP-orange?style=flat-square" alt="Core Stack" />
+  <img src="https://img.shields.io/badge/Languages-Rust%20%7C%20Python%20%7C%20TypeScript%20%7C%20Kotlin%20%7C%20C%2B%2B-orange?style=flat-square" alt="Languages" />
 </p>
 
 <div align="center">
   <a href="#-featured-research--publications">🔬 Research</a>
   &nbsp;·&nbsp;
-  <a href="#-systems-engineering--open-source-contributions">🦀 Systems & Open Source</a>
+  <a href="#-major-open-source-contributions">🌐 Open Source Contributions</a>
   &nbsp;·&nbsp;
-  <a href="#-key-security--agentic-tooling">🛡️ Security & AI Tooling</a>
+  <a href="#-key-systems--security-projects">🛡️ Systems & Security Projects</a>
   &nbsp;·&nbsp;
-  <a href="#-core-capabilities--technical-stack">🛠️ Tech Stack</a>
+  <a href="#-core-languages--technical-mastery">💻 Languages & Stack</a>
   &nbsp;·&nbsp;
   <a href="https://tarek-mohamed.me.eg/start-project">🚀 Start a Project</a>
 </div>
@@ -43,44 +43,62 @@
 
 - **Problem:** Autonomous AI agents executing tool calls via the **Model Context Protocol (MCP)** and external APIs are critically vulnerable to Indirect Prompt Injection (IPI) attacks hidden in untrusted external data streams.
 - **Architecture:** A high-throughput, sub-millisecond (< 0.1 ms) three-tier defense pipeline combining deterministic syntactic isolation, semantic intent heuristics, and an execution policy action firewall.
-- **Empirical Validation:** 100.0% mitigation rate across adversarial test suites with zero false positives.
+- **Empirical Validation:** 100.0% mitigation rate across adversarial benchmark suites with zero false positives.
 - **Artifacts:** Permanent DOI: [`10.5281/zenodo.22731104`](https://doi.org/10.5281/zenodo.22731104) · [Manuscript](https://github.com/seotarek/LightGuard-Agent/blob/main/paper/paper.md) · [Source Code](https://github.com/seotarek/LightGuard-Agent)
 
 ---
 
-## 🦀 Systems Engineering & Open Source Contributions
+## 🌐 Major Open Source Contributions
 
 ### [PhotoCraft Engine](https://github.com/storytold/photocraft) — Core Contributor
 *High-performance, professional digital creative and graphics studio engine written in **Rust**.*
 
-- **Engine Stability & Memory Bounds:** Hardened canvas trimming and merged layer duplication against out-of-memory document panics exceeding $2^{30}$ render pixels ([#7255](https://github.com/storytold/photocraft/pull/7255)).
-- **Photoshop ATN Engine Architecture:** Engineered strict `.atn` export safety, isolating numeric layer references ([#7262](https://github.com/storytold/photocraft/pull/7262)), flushing pending recording buffers ([#7244](https://github.com/storytold/photocraft/pull/7244)), and validating complex selection geometry ([#7249](https://github.com/storytold/photocraft/pull/7249), [#7232](https://github.com/storytold/photocraft/pull/7232)).
-- **Compositing & Graphics Algorithms:** Prevented exterior stroke effects from bleeding into opaque character interiors in raster/vector surfaces ([#5937](https://github.com/storytold/photocraft/pull/5937)) and scaled blur sigma dynamically with brush diameter ([#5939](https://github.com/storytold/photocraft/pull/5939)).
-- **Cross-Platform UI Runtime:** Enabled unified clipboard operations on macOS modal dialogs ([#5938](https://github.com/storytold/photocraft/pull/5938)) and hardened snapping / smart guide engines ([#5936](https://github.com/storytold/photocraft/pull/5936)).
+- **Memory Safety & Engine Stability:** Hardened high-resolution canvas trimming and multi-layer duplication against out-of-memory panics on canvases exceeding 1 billion render pixels ($2^{30}$).
+- **Photoshop Actions (.atn) Binary Engine:** Architected strict binary `.atn` recording and export pipelines, normalising active layer references at record time, eliminating unreferenced numeric identifiers, guaranteeing recording buffer flushes on save, and validating complex geometric selections.
+- **Compositing & Graphics Algorithms:** Eliminated exterior stroke bleeding into opaque character interiors across transparent raster surfaces, and engineered dynamic brush-diameter blur sigma scaling for mathematically consistent rendering.
+- **Cross-Platform UI Runtime:** Hardened global snapping and smart guide engines to guarantee deterministic view state synchronization across Linux, macOS, and Windows, integrated native clipboard support for macOS modal dialogs, and designed nested multi-theme menu architectures.
+
+### [FastMCP](https://github.com/PrefectHQ/fastmcp) — Contributor
+*Standard framework for building Model Context Protocol (MCP) servers in Python and TypeScript by Prefect.*
+
+- **Framework Caching Architecture:** Engineered HTTP `Accept` header cache partitioning for list operations, preventing content negotiation cache pollution and decoupling test dependency injection.
 
 ---
 
-## 🛡️ Key Security & Agentic Tooling
+## 🛡️ Key Systems & Security Projects
 
-- **[LightGuard-Agent](https://github.com/seotarek/LightGuard-Agent):** Production runtime defense preventing prompt injection in autonomous LLM agent execution loops.
+- **[LightGuard-Agent](https://github.com/seotarek/LightGuard-Agent):** Production runtime defense preventing prompt injection in autonomous LLM agent execution loops with sub-millisecond latency.
+- **[Kashef (كاشف) — Scam Shield](https://github.com/seotarek/kashef-scam-shield):** On-device zero-knowledge fraud prevention and phishing heuristic engine for Android built with Kotlin, Jetpack Compose, and Material 3.
 - **[ai-agent-security-eval](https://github.com/seotarek/ai-agent-security-eval):** Automated adversarial test suites and security evaluation frameworks for agentic workflows.
-- **[prompt-injection-ci](https://github.com/seotarek/prompt-injection-ci):** GitHub Action security gate auditing AI prompts and tool definitions during CI/CD.
 - **[mcp-postgres-audit](https://github.com/seotarek/mcp-postgres-audit):** Secure Model Context Protocol (MCP) server enforcing least-privilege database operations.
-- **[unified-whatsapp-gateway](https://github.com/seotarek/unified-whatsapp-gateway):** Resilient, high-throughput messaging pipeline with webhook verification.
-- **[zero-downtime-deploy-kit](https://github.com/seotarek/zero-downtime-deploy-kit):** Production-ready deployment automation with automated health probes and instant rollbacks.
+- **[prompt-injection-ci](https://github.com/seotarek/prompt-injection-ci):** GitHub Action security gate auditing AI prompts and tool definitions during CI/CD.
+- **[unified-whatsapp-gateway](https://github.com/seotarek/unified-whatsapp-gateway):** Resilient, high-throughput messaging pipeline with webhook verification and zero-downtime architecture.
 
 ---
 
-## 🛠️ Core Capabilities & Technical Stack
+## 💻 Core Languages & Technical Mastery
+
+| Language | Primary Focus & Applied Systems |
+| :--- | :--- |
+| **Rust** | Creative graphics engines, binary file parsers (`.atn`, `.psd`), memory safety, SIMD, cross-platform egui runtimes |
+| **Python** | AI agent orchestration, Model Context Protocol (FastMCP), PyTorch, FastAPI, prompt injection defense firewalls |
+| **TypeScript** | Distributed cloud platforms, MCP TypeScript SDK, streaming WebSocket runtimes, modern web architectures |
+| **Kotlin** | Modern Android engineering, Jetpack Compose, Coroutines & Flow, Room, on-device security heuristics |
+| **C++ / WASM** | Performance-critical systems, SIMD vectorization, WebAssembly compilation, cross-platform graphics |
+| **SQL** | PostgreSQL (`pgvector`), Redis, complex query optimization, high-concurrency transactional modeling |
+
+---
+
+## 🛠️ Architecture & Domain Capabilities
 
 | Domain | Core Technologies & Frameworks |
 | :--- | :--- |
-| **Systems & Engine Engineering** | **Rust**, C++, WebAssembly (WASM), Memory Safety, SIMD, Binary File Format Parsing (`.psd`, `.atn`) |
-| **AI Systems & Security** | Model Context Protocol (**MCP**), LLM Guardrails & Firewalls, Multi-Agent Orchestration, PyTorch, Python |
+| **Systems & Engine Engineering** | **Rust**, C++, WebAssembly (WASM), Memory Safety, SIMD, Binary Format Parsing |
+| **AI Systems & Security** | Model Context Protocol (**MCP**), LLM Guardrails & Firewalls, Multi-Agent Orchestration, PyTorch |
 | **Enterprise Backend** | Node.js / NestJS, TypeScript, Python (FastAPI), Laravel 11, PHP 8+, High-Concurrency WebSockets |
 | **Databases & Vector Search** | PostgreSQL (**pgvector**), Redis, MySQL, SQLite, Hybrid Lexical/Dense Retrieval |
-| **Cloud & DevOps** | Docker, Linux Kernel / Server Hardening, Ansible, Traefik, CI/CD Pipeline Automation |
-| **Frontend & Mobile Client** | React, Next.js, Tailwind CSS, Flutter, Jetpack Compose, Kotlin |
+| **Cloud & DevOps** | Docker, Linux Kernel / Server Hardening, Ansible, Traefik, Automated CI/CD Pipelines |
+| **Mobile Engineering** | Kotlin, Jetpack Compose, Android Security, Material 3, Clean Architecture, MVVM |
 
 ---
 
