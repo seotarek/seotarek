@@ -40,12 +40,13 @@
 
 ### [LightGuard-Agent: A Lightweight Defense Architecture Against Indirect Prompt Injection in Tool-Calling AI Agents](https://github.com/seotarek/LightGuard-Agent)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22731104.svg)](https://doi.org/10.5281/zenodo.22731104)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Playground-blue?style=flat-square)](https://huggingface.co/spaces/seotarek/LightGuard-Agent)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 - **Problem:** Autonomous AI agents executing tool calls via the **Model Context Protocol (MCP)** and external APIs are critically vulnerable to Indirect Prompt Injection (IPI) attacks hidden in untrusted external data streams.
 - **Architecture:** A high-throughput, sub-millisecond (< 0.1 ms) three-tier defense pipeline combining deterministic syntactic isolation, semantic intent heuristics, and an execution policy action firewall.
 - **Empirical Validation:** 100.0% mitigation rate across adversarial benchmark suites with zero false positives.
-- **Artifacts:** Permanent DOI: [`10.5281/zenodo.22731104`](https://doi.org/10.5281/zenodo.22731104) · [Manuscript](https://github.com/seotarek/LightGuard-Agent/blob/main/paper/paper.md) · [Source Code](https://github.com/seotarek/LightGuard-Agent)
+- **Artifacts:** Permanent DOI: [`10.5281/zenodo.22731104`](https://doi.org/10.5281/zenodo.22731104) · [Live Playground](https://huggingface.co/spaces/seotarek/LightGuard-Agent) · [Manuscript](https://github.com/seotarek/LightGuard-Agent/blob/main/paper/paper.md) · [Source Code](https://github.com/seotarek/LightGuard-Agent)
 
 ---
 
