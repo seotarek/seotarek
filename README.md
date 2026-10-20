@@ -70,10 +70,10 @@
 
 - **[LightGuard-Agent](https://github.com/seotarek/LightGuard-Agent):** Production runtime defense preventing prompt injection in autonomous LLM agent execution loops with sub-millisecond latency.
 - **[Kashef (كاشف) — Scam Shield](https://github.com/seotarek/kashef-scam-shield):** On-device zero-knowledge fraud prevention and phishing heuristic engine for Android built with Kotlin, Jetpack Compose, and Material 3.
-- **[ai-agent-security-eval](https://github.com/seotarek/ai-agent-security-eval):** Automated adversarial test suites and security evaluation frameworks for agentic workflows.
-- **[mcp-postgres-audit](https://github.com/seotarek/mcp-postgres-audit):** Secure Model Context Protocol (MCP) server enforcing least-privilege database operations.
-- **[prompt-injection-ci](https://github.com/seotarek/prompt-injection-ci):** GitHub Action security gate auditing AI prompts and tool definitions during CI/CD.
-- **[unified-whatsapp-gateway](https://github.com/seotarek/unified-whatsapp-gateway):** Resilient, high-throughput messaging pipeline with webhook verification and zero-downtime architecture.
+- **[mcp-arabic-toolkit](https://github.com/seotarek/mcp-arabic-toolkit):** High-performance Model Context Protocol (MCP) server providing Arabic NLP, text normalization, diacritization, and dialect classification for AI agents.
+- **[laravel-llm-router](https://github.com/seotarek/laravel-llm-router):** Modular Laravel 11 package for intelligent multi-provider LLM routing, cost optimization, and automated failover.
+- **[prompt-injection-detector-action](https://github.com/seotarek/prompt-injection-detector-action):** GitHub Action security gate auditing AI prompts and tool definitions during CI/CD.
+- **[waha-orchestrator](https://github.com/seotarek/waha-orchestrator):** Resilient, high-throughput WhatsApp messaging pipeline with webhook verification and zero-downtime architecture.
 
 ---
 
