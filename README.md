@@ -69,7 +69,7 @@
 
 ## 🛡️ Key Systems & Security Projects
 
-- **[LightGuard-Agent](https://github.com/seotarek/LightGuard-Agent):** Production runtime defense preventing prompt injection in autonomous LLM agent execution loops with sub-millisecond latency.
+- **[LightGuard-Agent](https://github.com/seotarek/LightGuard-Agent)** ([PyPI Package](https://pypi.org/project/lightguard-agent/) | [Live Demo](https://huggingface.co/spaces/seotarek/LightGuard-Agent) | [Docs](https://seotarek.github.io/LightGuard-Agent/)): Universal sub-millisecond AI security firewall (v0.3.0) preventing prompt injections, indirect attacks, homoglyph evasion, and multi-turn crescendo jailbreaks.
 - **[Kashef (كاشف) — Scam Shield](https://github.com/seotarek/kashef-scam-shield):** On-device zero-knowledge fraud prevention and phishing heuristic engine for Android built with Kotlin, Jetpack Compose, and Material 3.
 - **[mcp-arabic-toolkit](https://github.com/seotarek/mcp-arabic-toolkit):** High-performance Model Context Protocol (MCP) server providing Arabic NLP, text normalization, diacritization, and dialect classification for AI agents.
 - **[laravel-llm-router](https://github.com/seotarek/laravel-llm-router):** Modular Laravel 11 package for intelligent multi-provider LLM routing, cost optimization, and automated failover.
