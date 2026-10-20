@@ -16,6 +16,7 @@
   <a href="https://tarek-mohamed.me.eg"><img src="https://img.shields.io/badge/Website-tarek--mohamed.me.eg-2563eb?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
   <a href="https://zenodo.org/records/22731104"><img src="https://img.shields.io/badge/Research_DOI-10.5281%2Fzenodo.22731104-success?style=flat-square&logo=doi&logoColor=white" alt="DOI" /></a>
   <a href="https://github.com/seotarek"><img src="https://img.shields.io/badge/GitHub-seotarek-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://discord.com/users/568723296326254613"><img src="https://img.shields.io/badge/Discord-seotarek-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
   <img src="https://img.shields.io/badge/Languages-Rust%20%7C%20Python%20%7C%20TypeScript%20%7C%20Kotlin%20%7C%20C%2B%2B-orange?style=flat-square" alt="Languages" />
 </p>
 
@@ -124,6 +125,10 @@ I partner with forward-thinking engineering teams and organizations on:
 <p align="center">
   <a href="https://tarek-mohamed.me.eg/start-project">
     <img src="https://img.shields.io/badge/Start_a_Project-Work_With_Me-2563eb?style=for-the-badge&logo=rocket" alt="Start a Project" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://discord.com/users/568723296326254613">
+    <img src="https://img.shields.io/badge/Discord-seotarek-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:seotarek@gmail.com">
