@@ -1,35 +1,34 @@
 <div align="center">
-  <img src="./assets/hero-banner.svg" alt="Tarek Mohamed - Software Architect & AI Systems Engineer" width="100%" />
+  <img src="./assets/hero-banner.svg" alt="Tarek Mohamed — Principal Software Architect, AI Systems & Security Researcher" width="100%" />
 </div>
 
-<h1 align="center">Tarek Mohamed</h1>
+<br />
+
+<div align="center">
+  <a href="https://tarek-mohamed.me.eg"><img src="https://img.shields.io/badge/Website-tarek--mohamed.me.eg-2563eb?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" /></a>
+  <a href="https://doi.org/10.5281/zenodo.22731104"><img src="https://img.shields.io/badge/Research_DOI-10.5281%2Fzenodo.22731104-0d9488?style=for-the-badge&logo=doi&logoColor=white" alt="DOI" /></a>
+  <a href="https://pypi.org/project/lightguard-agent/"><img src="https://img.shields.io/badge/PyPI-lightguard--agent_v0.3.0-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" /></a>
+  <a href="https://huggingface.co/spaces/seotarek/LightGuard-Agent"><img src="https://img.shields.io/badge/Hugging_Face-Live_Playground-f59e0b?style=for-the-badge" alt="Hugging Face" /></a>
+  <a href="https://discord.com/users/568723296326254613"><img src="https://img.shields.io/badge/Discord-seotarek-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+</div>
 
 <p align="center">
-  <strong>Principal Software Architect · AI Systems & Security Researcher · Systems Engineer</strong>
-</p>
-
-<p align="center">
-  I design high-performance systems, secure autonomous AI agent runtimes, and resilient cloud-native platforms. My work bridges <strong>deep systems programming in Rust</strong> (creative engines, SIMD, binary parsers), <strong>AI security research</strong> (sub-millisecond prompt injection firewalls), and <strong>high-concurrency distributed architectures</strong> across Python, TypeScript, and Kotlin.
-</p>
-
-<p align="center">
-  <a href="https://tarek-mohamed.me.eg"><img src="https://img.shields.io/badge/Website-tarek--mohamed.me.eg-2563eb?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
-  <a href="https://zenodo.org/records/22731104"><img src="https://img.shields.io/badge/Research_DOI-10.5281%2Fzenodo.22731104-success?style=flat-square&logo=doi&logoColor=white" alt="DOI" /></a>
-  <a href="https://github.com/seotarek"><img src="https://img.shields.io/badge/GitHub-seotarek-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://discord.com/users/568723296326254613"><img src="https://img.shields.io/badge/Discord-seotarek-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
-  <img src="https://img.shields.io/badge/Languages-Rust%20%7C%20Python%20%7C%20TypeScript%20%7C%20Kotlin%20%7C%20C%2B%2B-orange?style=flat-square" alt="Languages" />
+  <strong>Principal Software Architect · AI Systems &amp; Security Researcher · Systems Engineer</strong><br />
+  Designing deterministic AI agent architectures, sub-millisecond prompt-injection firewalls, high-performance graphics engines in <strong>Rust</strong>, and mission-critical distributed platforms across <strong>Python, TypeScript, Kotlin, and PHP/Laravel</strong>.
 </p>
 
 <div align="center">
-  <a href="#-featured-research--publications">🔬 Research</a>
+  <a href="#-featured-research--publications">🔬 Research &amp; Publications</a>
   &nbsp;·&nbsp;
-  <a href="#-major-open-source-contributions">🌐 Open Source Contributions</a>
+  <a href="#-flagship-architectures--agent-ecosystems">🚀 Flagship Architectures</a>
   &nbsp;·&nbsp;
-  <a href="#-key-systems--security-projects">🛡️ Systems & Security Projects</a>
+  <a href="#-major-open-source-contributions">🦀 Open Source Contributions</a>
   &nbsp;·&nbsp;
-  <a href="#-core-languages--technical-mastery">💻 Languages & Stack</a>
+  <a href="#-production-mcp-servers--developer-tooling">🛠️ MCP &amp; Developer Tooling</a>
   &nbsp;·&nbsp;
-  <a href="https://tarek-mohamed.me.eg/start-project">🚀 Start a Project</a>
+  <a href="#-technical-mastery--architecture-stack">💻 Tech Stack</a>
+  &nbsp;·&nbsp;
+  <a href="https://tarek-mohamed.me.eg/start-project">🤝 Work With Me</a>
 </div>
 
 <br />
@@ -40,92 +39,110 @@
 
 ### [LightGuard-Agent: A Lightweight Defense Architecture Against Indirect Prompt Injection in Tool-Calling AI Agents](https://github.com/seotarek/LightGuard-Agent)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22731104.svg)](https://doi.org/10.5281/zenodo.22731104)
+[![PyPI](https://img.shields.io/badge/PyPI-v0.3.0-blue?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/lightguard-agent/)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Playground-blue?style=flat-square)](https://huggingface.co/spaces/seotarek/LightGuard-Agent)
+[![Docs](https://img.shields.io/badge/Docs-GitHub%20Pages-0d9488?style=flat-square)](https://seotarek.github.io/LightGuard-Agent/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-- **Problem:** Autonomous AI agents executing tool calls via the **Model Context Protocol (MCP)** and external APIs are critically vulnerable to Indirect Prompt Injection (IPI) attacks hidden in untrusted external data streams.
-- **Architecture:** A high-throughput, sub-millisecond (< 0.1 ms) three-tier defense pipeline combining deterministic syntactic isolation, semantic intent heuristics, and an execution policy action firewall.
-- **Empirical Validation:** 100.0% mitigation rate across adversarial benchmark suites with zero false positives.
-- **Artifacts:** Permanent DOI: [`10.5281/zenodo.22731104`](https://doi.org/10.5281/zenodo.22731104) · [Live Playground](https://huggingface.co/spaces/seotarek/LightGuard-Agent) · [Manuscript](https://github.com/seotarek/LightGuard-Agent/blob/main/paper/paper.md) · [Source Code](https://github.com/seotarek/LightGuard-Agent)
+- **Threat Model**: Autonomous AI agents executing tool calls via the **Model Context Protocol (MCP)** and external APIs are critically exposed to Indirect Prompt Injection (IPI), homoglyph evasion, and multi-turn crescendo jailbreaks embedded in untrusted external data streams.
+- **Defense Architecture**: A sub-millisecond (`< 0.1 ms`) three-tier security pipeline combining deterministic syntactic isolation, semantic intent heuristics, and a least-privilege execution policy firewall.
+- **Empirical Verification**: Achieved a **100.0% mitigation rate** across adversarial benchmark suites with zero false positives on benign clinical, financial, and developer workflows.
+- **Published Artifacts**: Permanent DOI [`10.5281/zenodo.22731104`](https://doi.org/10.5281/zenodo.22731104) · [PyPI Package (`pip install lightguard-agent`)](https://pypi.org/project/lightguard-agent/) · [Interactive Playground](https://huggingface.co/spaces/seotarek/LightGuard-Agent) · [Paper Manuscript](https://github.com/seotarek/LightGuard-Agent/blob/main/paper/paper.md)
 
 ---
 
-## 🌐 Major Open Source Contributions
+## 🚀 Flagship Architectures & Agent Ecosystems
 
-### [PhotoCraft Engine](https://github.com/storytold/photocraft) — Core Contributor
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/seotarek/LightGuard-Agent">LightGuard-Agent</a></h3>
+      <p><strong>Sub-Millisecond AI Agent Security Firewall</strong></p>
+      <p>Universal runtime protection for LLM tool-calling loops and MCP workflows. Defends against indirect prompt injection, unicode homoglyphs, and unauthorized tool escalation with zero external LLM latency overhead.</p>
+      <p><code>Python</code> · <code>MCP</code> · <code>AI Security</code> · <code>PyPI</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📐 <a href="https://github.com/seotarek/orthotect">Orthotect</a></h3>
+      <p><strong>Deterministic Interface Engineering &amp; Runtime Gate Architecture</strong></p>
+      <p>Compiler-grade design system governance and static analysis gates for AI coding agents (Claude Code, Cursor, Codex, Antigravity). Enforces WCAG 2.2 AAA APCA contrast, W3C DTCG tokens, CSS Logical BiDi/RTL parity, and finite-state UI completeness.</p>
+      <p><code>Python</code> · <code>Agent Skills</code> · <code>WCAG 2.2 AAA</code> · <code>RTL/BiDi</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚕️ <a href="https://github.com/seotarek/MedOrqis">MedOrqis (v2.1)</a></h3>
+      <p><strong>Evidence-Grounded Medical AI Skills Ecosystem</strong></p>
+      <p>Modular clinical informatics ecosystem featuring <strong>24 risk-stratified medical AI skills</strong> (IEC 62304 Class A/B/C), zero-token deterministic clinical calculators (ESC 2024 CHA₂DS₂-VA, CKD-EPI 2021, Bedside Schwartz, NEWS2, HAS-BLED), epistemic provenance locks, DDI screening, and 126-case multilingual negation benchmarks.</p>
+      <p><code>Python</code> · <code>Clinical CDS</code> · <code>MCP Server</code> · <code>ISO 14971</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📱 <a href="https://github.com/seotarek/kashef-scam-shield">Kashef (كاشف) — Scam Shield</a></h3>
+      <p><strong>On-Device Zero-Knowledge Fraud &amp; Phishing Engine</strong></p>
+      <p>Privacy-first Android security engine analyzing SMS, links, and social engineering patterns completely on-device with zero cloud telemetry. Built with clean architecture, Kotlin Coroutines, Jetpack Compose, and Material 3.</p>
+      <p><code>Kotlin</code> · <code>Jetpack Compose</code> · <code>Android Security</code> · <code>Zero-Knowledge</code></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🦀 Major Open Source Contributions
+
+### [PhotoCraft Engine](https://github.com/storytold/photocraft) — Core Systems Contributor
 *High-performance, professional digital creative and graphics studio engine written in **Rust**.*
 
-- **Memory Safety & Engine Stability:** Hardened high-resolution canvas trimming and multi-layer duplication against out-of-memory panics on canvases exceeding 1 billion render pixels ($2^{30}$).
-- **Photoshop Actions (.atn) Binary Engine:** Architected strict binary `.atn` recording and export pipelines, normalising active layer references at record time, eliminating unreferenced numeric identifiers, guaranteeing recording buffer flushes on save, and validating complex geometric selections.
-- **Compositing & Graphics Algorithms:** Eliminated exterior stroke bleeding into opaque character interiors across transparent raster surfaces, and engineered dynamic brush-diameter blur sigma scaling for mathematically consistent rendering.
-- **Cross-Platform UI Runtime:** Hardened global snapping and smart guide engines to guarantee deterministic view state synchronization across Linux, macOS, and Windows, integrated native clipboard support for macOS modal dialogs, and designed nested multi-theme menu architectures.
+- **Memory Safety & Extreme-Canvas Stability**: Hardened high-resolution canvas trimming and multi-layer duplication against out-of-memory panics on ultra-dense canvases exceeding $2^{30}$ (1 billion+) render pixels.
+- **Photoshop Actions (`.atn`) Binary Engine**: Architected deterministic binary `.atn` recording and export pipelines, normalizing active layer references at record time, eliminating dangling numeric identifiers, flushing pending recording buffers on save, and validating complex geometric selections.
+- **Compositing & Rendering Mathematics**: Eliminated exterior stroke bleeding into opaque glyph interiors across transparent raster/vector surfaces, and engineered dynamic brush-diameter blur sigma scaling for mathematically uniform stroke feathering.
+- **Cross-Platform Desktop Runtime**: Hardened global snapping and smart guide engines for deterministic view-state synchronization across Linux, macOS, and Windows, and integrated native clipboard support for macOS modal dialogs.
 
-### [FastMCP](https://github.com/PrefectHQ/fastmcp) — Contributor
-*Standard framework for building Model Context Protocol (MCP) servers in Python and TypeScript by Prefect.*
+### [FastMCP (PrefectHQ)](https://github.com/PrefectHQ/fastmcp) — Framework Contributor
+*The standard framework for building Model Context Protocol (MCP) servers in Python and TypeScript.*
 
-- **Framework Caching Architecture:** Engineered HTTP `Accept` header cache partitioning for list operations, preventing content negotiation cache pollution and decoupling test dependency injection.
-
----
-
-## 🛡️ Key Systems & Security Projects
-
-- **[LightGuard-Agent](https://github.com/seotarek/LightGuard-Agent)** ([PyPI Package](https://pypi.org/project/lightguard-agent/) | [Live Demo](https://huggingface.co/spaces/seotarek/LightGuard-Agent) | [Docs](https://seotarek.github.io/LightGuard-Agent/)): Universal sub-millisecond AI security firewall (v0.3.0) preventing prompt injections, indirect attacks, homoglyph evasion, and multi-turn crescendo jailbreaks.
-- **[Kashef (كاشف) — Scam Shield](https://github.com/seotarek/kashef-scam-shield):** On-device zero-knowledge fraud prevention and phishing heuristic engine for Android built with Kotlin, Jetpack Compose, and Material 3.
-- **[mcp-arabic-toolkit](https://github.com/seotarek/mcp-arabic-toolkit):** High-performance Model Context Protocol (MCP) server providing Arabic NLP, text normalization, diacritization, and dialect classification for AI agents.
-- **[laravel-llm-router](https://github.com/seotarek/laravel-llm-router):** Modular Laravel 11 package for intelligent multi-provider LLM routing, cost optimization, and automated failover.
-- **[prompt-injection-detector-action](https://github.com/seotarek/prompt-injection-detector-action):** GitHub Action security gate auditing AI prompts and tool definitions during CI/CD.
-- **[waha-orchestrator](https://github.com/seotarek/waha-orchestrator):** Resilient, high-throughput WhatsApp messaging pipeline with webhook verification and zero-downtime architecture.
+- **Content-Negotiation Cache Isolation**: Engineered HTTP `Accept` header cache partitioning for list operations, preventing cross-format cache pollution and decoupling test dependency injection.
 
 ---
 
-## 💻 Core Languages & Technical Mastery
+## 🛠️ Production MCP Servers & Developer Tooling
 
-| Language | Primary Focus & Applied Systems |
+| Project | Domain | Architectural Highlights |
+| :--- | :--- | :--- |
+| **[mcp-arabic-toolkit](https://github.com/seotarek/mcp-arabic-toolkit)** | Arabic NLP & MCP | High-performance MCP server providing Arabic text normalization, morphological processing, diacritization (Tashkeel), and dialect classification for AI agents. |
+| **[mcp-postgres-guard](https://github.com/seotarek/mcp-postgres-guard)** | Database Security & MCP | Secure PostgreSQL MCP server featuring read-only transaction sandboxes, AST-level SQL injection prevention, and automated slow-query `EXPLAIN` auditing. |
+| **[agentic-rag-faithfulness](https://github.com/seotarek/agentic-rag-faithfulness)** | LLM Evaluation | Sub-millisecond evaluation engine measuring RAG groundedness and detecting entity/negation hallucinations across Arabic and English retrieval pipelines. |
+| **[laravel-llm-router](https://github.com/seotarek/laravel-llm-router)** | Enterprise PHP / AI | Modular Laravel 11 package for multi-provider LLM routing, token budget enforcement, circuit-breaker failover, and semantic response caching. |
+| **[laravel-pgvector-eloquent](https://github.com/seotarek/laravel-pgvector-eloquent)** | Vector Search | Native PostgreSQL `pgvector` integration for Laravel Eloquent with cosine/L2/inner-product distance scopes and automated HNSW index migrations. |
+| **[prompt-injection-detector-action](https://github.com/seotarek/prompt-injection-detector-action)** | DevSecOps CI/CD | GitHub Action security gate that audits agent system prompts, `SKILL.md` manifests, and MCP tool schemas for injection vulnerabilities on every pull request. |
+| **[unified-whatsapp-webhook-gateway](https://github.com/seotarek/unified-whatsapp-webhook-gateway)** | Distributed Messaging | High-concurrency webhook orchestrator bridging Evolution API and WAHA with multi-tenant CRMs, WooCommerce, and automated AI handoff queues. |
+| **[zero-downtime-db-sync](https://github.com/seotarek/zero-downtime-db-sync)** | Data Infrastructure | Resilient streaming database migration and verification CLI for zero-downtime synchronization across MySQL, PostgreSQL, and SQLite. |
+
+---
+
+## 💻 Technical Mastery & Architecture Stack
+
+| Engineering Pillar | Core Languages, Engines & Frameworks |
 | :--- | :--- |
-| **Rust** | Creative graphics engines, binary file parsers (`.atn`, `.psd`), memory safety, SIMD, cross-platform egui runtimes |
-| **Python** | AI agent orchestration, Model Context Protocol (FastMCP), PyTorch, FastAPI, prompt injection defense firewalls |
-| **TypeScript** | Distributed cloud platforms, MCP TypeScript SDK, streaming WebSocket runtimes, modern web architectures |
-| **Kotlin** | Modern Android engineering, Jetpack Compose, Coroutines & Flow, Room, on-device security heuristics |
-| **C++ / WASM** | Performance-critical systems, SIMD vectorization, WebAssembly compilation, cross-platform graphics |
-| **SQL** | PostgreSQL (`pgvector`), Redis, complex query optimization, high-concurrency transactional modeling |
+| **Systems & Graphics Engineering** | **Rust**, C++, WebAssembly (WASM), SIMD Vectorization, Binary Format Parsers (`.psd`, `.atn`), `egui`, Memory-Safe Concurrency |
+| **AI Agents, MCP & Security** | **Python**, Model Context Protocol (**MCP** / FastMCP), Agent Skills (`SKILL.md`), Prompt Injection Firewalls, Clinical CDS, PyTorch |
+| **Distributed Cloud & Backend** | **TypeScript**, Node.js (NestJS), Python (**FastAPI**), **PHP 8.3+ / Laravel 11**, High-Concurrency WebSockets, REST & JSON-RPC 2.0 |
+| **Data, Vector & Caching Layers** | **PostgreSQL (`pgvector`)**, Redis, MySQL, SQLite, Hybrid Dense + BM25 Retrieval, Reciprocal Rank Fusion (RRF) |
+| **Mobile & Frontend Systems** | **Kotlin** (Jetpack Compose, Coroutines, Material 3), **Next.js 15**, React, Tailwind CSS, Logical CSS BiDi/RTL, WCAG 2.2 AAA |
+| **DevSecOps & Infrastructure** | **Docker Swarm**, Traefik v3 Edge Proxies, Linux Kernel & CloudLinux Hardening, Ansible, GitHub Actions CI/CD |
 
 ---
-
-## 🛠️ Architecture & Domain Capabilities
-
-| Domain | Core Technologies & Frameworks |
-| :--- | :--- |
-| **Systems & Engine Engineering** | **Rust**, C++, WebAssembly (WASM), Memory Safety, SIMD, Binary Format Parsing |
-| **AI Systems & Security** | Model Context Protocol (**MCP**), LLM Guardrails & Firewalls, Multi-Agent Orchestration, PyTorch |
-| **Enterprise Backend** | Node.js / NestJS, TypeScript, Python (FastAPI), Laravel 11, PHP 8+, High-Concurrency WebSockets |
-| **Databases & Vector Search** | PostgreSQL (**pgvector**), Redis, MySQL, SQLite, Hybrid Lexical/Dense Retrieval |
-| **Cloud & DevOps** | Docker, Linux Kernel / Server Hardening, Ansible, Traefik, Automated CI/CD Pipelines |
-| **Mobile Engineering** | Kotlin, Jetpack Compose, Android Security, Material 3, Clean Architecture, MVVM |
-
----
-
-## 📊 GitHub Metrics & Activity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=seotarek&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Tarek's GitHub Stats" height="165" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seotarek&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
-</div>
-
-<br />
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## 🌐 Enterprise Inquiries & Collaborations
+## 🤝 Enterprise Architecture, Research & Consulting
 
-I partner with forward-thinking engineering teams and organizations on:
-- Architecting and securing **Autonomous AI Agent Workflows & MCP Servers**.
-- Building mission-critical **Systems Infrastructure in Rust and Cloud-Native Distributed Platforms**.
-- Conducting **AI Application Red-Teaming, Prompt Injection Hardening & Penetration Audits**.
+I partner with engineering organizations, healthcare innovators, and technology leaders on:
+- **Securing Autonomous AI Agents & MCP Ecosystems**: Designing deterministic runtime gates, custom MCP servers, and sub-millisecond prompt-injection firewalls.
+- **High-Performance Systems & Distributed Platforms**: Architecting Rust engines, multi-tenant SaaS platforms (Next.js / Laravel / FastAPI), and zero-downtime cloud infrastructure.
+- **Specialized Domain AI**: Building verified, regulatory-aware AI systems for clinical informatics, Arabic NLP, and RTL-first enterprise products.
 
 <p align="center">
   <a href="https://tarek-mohamed.me.eg/start-project">
-    <img src="https://img.shields.io/badge/Start_a_Project-Work_With_Me-2563eb?style=for-the-badge&logo=rocket" alt="Start a Project" />
+    <img src="https://img.shields.io/badge/Start_a_Project-tarek--mohamed.me.eg-2563eb?style=for-the-badge&logo=rocket&logoColor=white" alt="Start a Project" />
   </a>
   &nbsp;&nbsp;
   <a href="https://discord.com/users/568723296326254613">
@@ -133,6 +150,6 @@ I partner with forward-thinking engineering teams and organizations on:
   </a>
   &nbsp;&nbsp;
   <a href="mailto:seotarek@gmail.com">
-    <img src="https://img.shields.io/badge/Email_Me-seotarek%40gmail.com-10b981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
+    <img src="https://img.shields.io/badge/Email-seotarek%40gmail.com-10b981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
   </a>
 </p>

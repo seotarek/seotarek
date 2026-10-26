@@ -1,85 +1,166 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
-  <title id="title">Tarek Mohamed profile banner</title>
-  <desc id="desc">A responsive banner with abstract system lines and nameplate text.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Tarek Mohamed — Principal Software Architect, AI Systems &amp; Security Researcher</title>
+  <desc id="desc">Modern engineering banner showcasing Systems Engineering in Rust, AI Security &amp; MCP, Clinical &amp; Design Ecosystems, and Cloud Architecture.</desc>
   <style>
     :root {
-      --bg: #f8fafc;
-      --panel: #ffffff;
-      --text: #0f172a;
-      --muted: #475569;
-      --accent: #2563eb;
-      --accent-2: #14b8a6;
-      --grid: rgba(15, 23, 42, 0.09);
+      --bg-start: #f8fafc;
+      --bg-end: #f1f5f9;
+      --card: #ffffff;
+      --border: #e2e8f0;
+      --text-main: #0f172a;
+      --text-sub: #334155;
+      --text-muted: #64748b;
+      --primary: #2563eb;
+      --secondary: #0d9488;
+      --tertiary: #7c3aed;
+      --accent-glow: rgba(37, 99, 235, 0.10);
+      --pill-bg: #f1f5f9;
+      --pill-border: #cbd5e1;
+      --grid-line: rgba(15, 23, 42, 0.05);
+      --status-green: #10b981;
     }
 
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg: #0b1220;
-        --panel: #0f172a;
-        --text: #e2e8f0;
-        --muted: #94a3b8;
-        --accent: #60a5fa;
-        --accent-2: #2dd4bf;
-        --grid: rgba(148, 163, 184, 0.16);
+        --bg-start: #060b14;
+        --bg-end: #0f172a;
+        --card: #111c2d;
+        --border: #1e293b;
+        --text-main: #f8fafc;
+        --text-sub: #cbd5e1;
+        --text-muted: #94a3b8;
+        --primary: #3b82f6;
+        --secondary: #14b8a6;
+        --tertiary: #a855f7;
+        --accent-glow: rgba(59, 130, 246, 0.16);
+        --pill-bg: #1e293b;
+        --pill-border: #334155;
+        --grid-line: rgba(148, 163, 184, 0.06);
+        --status-green: #34d399;
       }
     }
 
-    .title {
-      fill: var(--text);
-      font: 700 58px/1.1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      letter-spacing: -0.04em;
+    .name {
+      fill: var(--text-main);
+      font: 800 54px/1.1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      letter-spacing: -0.03em;
     }
-
-    .subtitle {
-      fill: var(--muted);
-      font: 500 24px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    .role {
+      fill: var(--primary);
+      font: 700 22px/1.3 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      letter-spacing: -0.01em;
     }
-
-    .meta {
-      fill: var(--muted);
-      font: 500 18px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    .tagline {
+      fill: var(--text-sub);
+      font: 500 17px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .pill-text {
+      fill: var(--text-main);
+      font: 600 13.5px/1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+    }
+    .node-title {
+      fill: var(--text-main);
+      font: 700 13px/1.2 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    .node-sub {
+      fill: var(--text-muted);
+      font: 500 11.5px/1.2 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    .meta-footer {
+      fill: var(--text-muted);
+      font: 600 14px/1.2 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     }
   </style>
 
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="var(--bg)" />
-      <stop offset="100%" stop-color="var(--panel)" />
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="var(--bg-start)" />
+      <stop offset="100%" stop-color="var(--bg-end)" />
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="var(--accent-2)" stop-opacity="0.1" />
+    <linearGradient id="brandBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="var(--primary)" />
+      <stop offset="50%" stop-color="var(--secondary)" />
+      <stop offset="100%" stop-color="var(--tertiary)" />
     </linearGradient>
+    <pattern id="engGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="var(--grid-line)" stroke-width="1" />
+    </pattern>
   </defs>
 
-  <rect width="1400" height="360" rx="34" fill="url(#bgGrad)" />
-  <rect x="32" y="32" width="1336" height="296" rx="26" fill="none" stroke="var(--grid)" />
+  <!-- Outer Canvas -->
+  <rect width="1400" height="400" rx="28" fill="url(#canvasBg)" />
+  <rect width="1400" height="400" rx="28" fill="url(#engGrid)" />
+  <rect x="18" y="18" width="1364" height="364" rx="20" fill="none" stroke="var(--border)" stroke-width="2" />
 
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M1040 76c68 0 116 43 116 96s-48 96-116 96" stroke="url(#accentGrad)" stroke-width="18" opacity="0.95" />
-    <path d="M1030 92c56 0 94 34 94 80s-38 80-94 80" stroke="var(--accent)" stroke-width="4" opacity="0.65" />
-    <path d="M1116 84l140 0" stroke="var(--grid)" stroke-width="2" />
-    <path d="M1116 176l140 0" stroke="var(--grid)" stroke-width="2" />
-    <path d="M1116 268l140 0" stroke="var(--grid)" stroke-width="2" />
-    <path d="M1040 172l-170 0" stroke="var(--grid)" stroke-width="2" />
-    <path d="M1040 172l-122 -58" stroke="var(--grid)" stroke-width="2" />
-    <path d="M1040 172l-122 58" stroke="var(--grid)" stroke-width="2" />
-    <circle cx="1118" cy="84" r="8" fill="var(--accent)" opacity="0.9" />
-    <circle cx="1118" cy="176" r="8" fill="var(--accent-2)" opacity="0.9" />
-    <circle cx="1118" cy="268" r="8" fill="var(--accent)" opacity="0.55" />
-    <circle cx="878" cy="114" r="5" fill="var(--accent-2)" opacity="0.8" />
-    <circle cx="852" cy="172" r="5" fill="var(--accent)" opacity="0.8" />
-    <circle cx="878" cy="230" r="5" fill="var(--accent-2)" opacity="0.8" />
-    <path d="M90 84h430" stroke="var(--grid)" stroke-width="2" />
-    <path d="M90 114h286" stroke="var(--grid)" stroke-width="2" />
-    <path d="M90 144h370" stroke="var(--grid)" stroke-width="2" />
-    <path d="M90 198h318" stroke="var(--grid)" stroke-width="2" />
-    <path d="M90 228h392" stroke="var(--grid)" stroke-width="2" />
-    <path d="M90 258h270" stroke="var(--grid)" stroke-width="2" />
+  <!-- Top Accent Bar -->
+  <rect x="76" y="18" width="320" height="4" rx="2" fill="url(#brandBar)" />
+
+  <!-- Ambient Glows -->
+  <circle cx="1120" cy="200" r="170" fill="var(--accent-glow)" />
+
+  <!-- Left Column: Identity & Value Proposition -->
+  <!-- Status Indicator -->
+  <rect x="76" y="54" width="356" height="30" rx="15" fill="var(--pill-bg)" stroke="var(--pill-border)" stroke-width="1" />
+  <circle cx="94" cy="69" r="5" fill="var(--status-green)" />
+  <text x="108" y="74" class="node-title">SYSTEMS ARCHITECT · CAIRO, EGYPT · 17+ YRS</text>
+
+  <!-- Name & Headline -->
+  <text x="76" y="146" class="name">Tarek Mohamed</text>
+  <text x="76" y="184" class="role">Principal Software Architect · AI Systems &amp; Security Researcher</text>
+  <text x="76" y="218" class="tagline">Engineering deterministic AI agent runtimes, sub-millisecond security firewalls,</text>
+  <text x="76" y="242" class="tagline">high-performance Rust graphics engines, and resilient distributed cloud platforms.</text>
+
+  <!-- Domain Capability Pills -->
+  <g transform="translate(76, 268)">
+    <rect x="0" y="0" width="168" height="34" rx="8" fill="var(--pill-bg)" stroke="var(--pill-border)" stroke-width="1.2" />
+    <circle cx="16" cy="17" r="4" fill="var(--primary)" />
+    <text x="28" y="22" class="pill-text">AI Security &amp; MCP</text>
+
+    <rect x="180" y="0" width="176" height="34" rx="8" fill="var(--pill-bg)" stroke="var(--pill-border)" stroke-width="1.2" />
+    <circle cx="196" cy="17" r="4" fill="var(--secondary)" />
+    <text x="208" y="22" class="pill-text">Rust Systems &amp; SIMD</text>
+
+    <rect x="368" y="0" width="192" height="34" rx="8" fill="var(--pill-bg)" stroke="var(--pill-border)" stroke-width="1.2" />
+    <circle cx="384" cy="17" r="4" fill="var(--tertiary)" />
+    <text x="396" y="22" class="pill-text">Agent Skills Ecosystems</text>
+
+    <rect x="572" y="0" width="184" height="34" rx="8" fill="var(--pill-bg)" stroke="var(--pill-border)" stroke-width="1.2" />
+    <circle cx="588" cy="17" r="4" fill="var(--status-green)" />
+    <text x="600" y="22" class="pill-text">Cloud &amp; Arabic NLP</text>
   </g>
 
-  <text x="90" y="148" class="title">Tarek Mohamed</text>
-  <text x="90" y="194" class="subtitle">Software Architect · AI Systems Engineer · Systems Developer</text>
-  <text x="90" y="232" class="meta">Systems Engineering (Rust) · AI Agent Security (MCP) · Distributed Cloud Infrastructure</text>
-  <text x="90" y="266" class="meta">Cairo, Egypt · Research DOI: 10.5281/zenodo.22731104 · tarek-mohamed.me.eg</text>
+  <!-- Footer Coordinates -->
+  <text x="76" y="344" class="meta-footer">DOI: 10.5281/zenodo.22731104  ·  PyPI: lightguard-agent  ·  tarek-mohamed.me.eg</text>
+
+  <!-- Right Column: Architectural Topology Graphic -->
+  <g transform="translate(880, 48)">
+    <!-- Connecting Circuit Paths -->
+    <path d="M 210 68 L 210 120" stroke="var(--primary)" stroke-width="2" stroke-dasharray="4 4" />
+    <path d="M 210 184 L 105 232" stroke="var(--secondary)" stroke-width="2" />
+    <path d="M 210 184 L 315 232" stroke="var(--tertiary)" stroke-width="2" />
+
+    <!-- Top Node: AI Security Firewall -->
+    <rect x="70" y="12" width="280" height="56" rx="12" fill="var(--card)" stroke="var(--primary)" stroke-width="1.8" />
+    <circle cx="94" cy="40" r="6" fill="var(--primary)" />
+    <text x="110" y="36" class="node-title">LightGuard-Agent v0.3.0</text>
+    <text x="110" y="54" class="node-sub">&lt;0.1ms IPI Firewall · 100% Mitigation</text>
+
+    <!-- Center Core Hub: Deterministic Runtime & MCP -->
+    <rect x="45" y="120" width="330" height="64" rx="14" fill="var(--card)" stroke="var(--secondary)" stroke-width="2" />
+    <circle cx="72" cy="152" r="7" fill="var(--secondary)" />
+    <text x="90" y="147" class="node-title">Deterministic Agent Runtime &amp; MCP</text>
+    <text x="90" y="167" class="node-sub">Orthotect (WCAG AAA) · MedOrqis (24 Skills)</text>
+
+    <!-- Bottom Left Node: Rust Systems -->
+    <rect x="0" y="232" width="202" height="64" rx="12" fill="var(--card)" stroke="var(--border)" stroke-width="1.6" />
+    <circle cx="22" cy="264" r="5" fill="var(--primary)" />
+    <text x="36" y="258" class="node-title">Rust Engine Core</text>
+    <text x="36" y="276" class="node-sub">PhotoCraft · Binary .ATN</text>
+
+    <!-- Bottom Right Node: Cloud & Mobile -->
+    <rect x="218" y="232" width="212" height="64" rx="12" fill="var(--card)" stroke="var(--border)" stroke-width="1.6" />
+    <circle cx="240" cy="264" r="5" fill="var(--tertiary)" />
+    <text x="254" y="258" class="node-title">Distributed &amp; On-Device</text>
+    <text x="254" y="276" class="node-sub">Kashef Kotlin · FastMCP</text>
+  </g>
 </svg>
