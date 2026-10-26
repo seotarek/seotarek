@@ -71,9 +71,14 @@
   <tr>
     <td width="50%" valign="top">
       <h3>⚕️ <a href="https://github.com/seotarek/MedOrqis">MedOrqis (v2.1)</a></h3>
+      <p>
+        <a href="https://seotarek.github.io/MedOrqis/"><img src="https://img.shields.io/badge/Live_Catalog-GitHub_Pages-00e5a3?style=flat-square&logo=google-chrome&logoColor=black" alt="Live Catalog" /></a>
+        <a href="https://www.npmjs.com/package/medorqis"><img src="https://img.shields.io/badge/npm-v2.1.1-cb3837?style=flat-square&logo=npm" alt="npm" /></a>
+        <a href="https://github.com/seotarek/MedOrqis"><img src="https://img.shields.io/badge/Skills_CLI-npx_skills_add-6366f1?style=flat-square" alt="Skills CLI" /></a>
+      </p>
       <p><strong>Evidence-Grounded Medical AI Skills Ecosystem</strong></p>
-      <p>Modular clinical informatics ecosystem featuring <strong>24 risk-stratified medical AI skills</strong> (IEC 62304 Class A/B/C), zero-token deterministic clinical calculators (ESC 2024 CHA₂DS₂-VA, CKD-EPI 2021, Bedside Schwartz, NEWS2, HAS-BLED), epistemic provenance locks, DDI screening, and 126-case multilingual negation benchmarks.</p>
-      <p><code>Python</code> · <code>Clinical CDS</code> · <code>MCP Server</code> · <code>ISO 14971</code></p>
+      <p>Modular clinical informatics ecosystem featuring <strong>24 risk-stratified medical AI skills</strong> (IEC 62304 Class A/B/C), 12 zero-token deterministic clinical calculators (ESC 2024 CHA₂DS₂-VA, CKD-EPI 2021, Bedside Schwartz, NEWS2, HAS-BLED, DDI Engine), epistemic provenance locks, and 126-case multilingual negation benchmarks.</p>
+      <p><code>Python</code> · <code>Clinical CDS</code> · <code>MCP Server</code> · <code>ISO 14971</code> · <code>Skills CLI</code></p>
     </td>
     <td width="50%" valign="top">
       <h3>📱 <a href="https://github.com/seotarek/kashef-scam-shield">Kashef (كاشف) — Scam Shield</a></h3>
