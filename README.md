@@ -8,7 +8,7 @@
   <a href="https://tarek-mohamed.me.eg"><img src="https://img.shields.io/badge/Website-tarek--mohamed.me.eg-2563eb?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" /></a>
   <a href="https://doi.org/10.5281/zenodo.22731104"><img src="https://img.shields.io/badge/Research_DOI-10.5281%2Fzenodo.22731104-0d9488?style=for-the-badge&logo=doi&logoColor=white" alt="DOI" /></a>
   <a href="https://pypi.org/project/lightguard-agent/"><img src="https://img.shields.io/badge/PyPI-lightguard--agent_v0.3.0-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" /></a>
-  <a href="https://huggingface.co/spaces/seotarek/LightGuard-Agent"><img src="https://img.shields.io/badge/Hugging_Face-Live_Playground-f59e0b?style=for-the-badge" alt="Hugging Face" /></a>
+  <a href="https://www.npmjs.com/package/medorqis"><img src="https://img.shields.io/badge/npm-medorqis_v2.1.1-cb3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm medorqis" /></a>
   <a href="https://discord.com/users/568723296326254613"><img src="https://img.shields.io/badge/Discord-seotarek-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 </div>
 
@@ -57,24 +57,37 @@
   <tr>
     <td width="50%" valign="top">
       <h3>🛡️ <a href="https://github.com/seotarek/LightGuard-Agent">LightGuard-Agent</a></h3>
+      <p>
+        <a href="https://pypi.org/project/lightguard-agent/"><img src="https://img.shields.io/badge/PyPI-v0.3.0-3775A9?style=flat-square&logo=pypi&logoColor=white" alt="PyPI" /></a>
+        <a href="https://huggingface.co/spaces/seotarek/LightGuard-Agent"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Playground-Hugging%20Face-f59e0b?style=flat-square" alt="Hugging Face Playground" /></a>
+        <a href="https://seotarek.github.io/LightGuard-Agent/"><img src="https://img.shields.io/badge/Docs-GitHub%20Pages-00e5a3?style=flat-square&logo=google-chrome&logoColor=white" alt="Docs" /></a>
+        <a href="https://doi.org/10.5281/zenodo.22731104"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22731104-10b981?style=flat-square&logo=doi&logoColor=white" alt="DOI" /></a>
+      </p>
       <p><strong>Sub-Millisecond AI Agent Security Firewall</strong></p>
       <p>Universal runtime protection for LLM tool-calling loops and MCP workflows. Defends against indirect prompt injection, unicode homoglyphs, and unauthorized tool escalation with zero external LLM latency overhead.</p>
-      <p><code>Python</code> · <code>MCP</code> · <code>AI Security</code> · <code>PyPI</code></p>
+      <p><code>Python</code> · <code>MCP</code> · <code>AI Security</code> · <code>PyPI</code> · <code>&lt;0.1ms Latency</code></p>
     </td>
     <td width="50%" valign="top">
       <h3>📐 <a href="https://github.com/seotarek/orthotect">Orthotect</a></h3>
+      <p>
+        <a href="https://github.com/seotarek/orthotect"><img src="https://img.shields.io/badge/Skills%20CLI-npx%20skills%20add-6366f1?style=flat-square&logo=vercel&logoColor=white" alt="Skills CLI" /></a>
+        <a href="https://github.com/seotarek/orthotect"><img src="https://img.shields.io/badge/Accessibility-WCAG%202.2%20AAA-10b981?style=flat-square" alt="WCAG 2.2 AAA" /></a>
+        <a href="https://github.com/seotarek/orthotect"><img src="https://img.shields.io/badge/Tokens-W3C%20DTCG-0ea5e9?style=flat-square" alt="W3C DTCG" /></a>
+        <a href="https://github.com/seotarek/orthotect"><img src="https://img.shields.io/badge/Layout-CSS%20Logical%20BiDi-8b5cf6?style=flat-square" alt="BiDi RTL" /></a>
+      </p>
       <p><strong>Deterministic Interface Engineering &amp; Runtime Gate Architecture</strong></p>
       <p>Compiler-grade design system governance and static analysis gates for AI coding agents (Claude Code, Cursor, Codex, Antigravity). Enforces WCAG 2.2 AAA APCA contrast, W3C DTCG tokens, CSS Logical BiDi/RTL parity, and finite-state UI completeness.</p>
-      <p><code>Python</code> · <code>Agent Skills</code> · <code>WCAG 2.2 AAA</code> · <code>RTL/BiDi</code></p>
+      <p><code>Python</code> · <code>Agent Skills</code> · <code>WCAG 2.2 AAA</code> · <code>RTL/BiDi</code> · <code>FSM</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>⚕️ <a href="https://github.com/seotarek/MedOrqis">MedOrqis (v2.1)</a></h3>
       <p>
-        <a href="https://seotarek.github.io/MedOrqis/"><img src="https://img.shields.io/badge/Live_Catalog-GitHub_Pages-00e5a3?style=flat-square&logo=google-chrome&logoColor=black" alt="Live Catalog" /></a>
-        <a href="https://www.npmjs.com/package/medorqis"><img src="https://img.shields.io/badge/npm-v2.1.1-cb3837?style=flat-square&logo=npm" alt="npm" /></a>
-        <a href="https://github.com/seotarek/MedOrqis"><img src="https://img.shields.io/badge/Skills_CLI-npx_skills_add-6366f1?style=flat-square" alt="Skills CLI" /></a>
+        <a href="https://seotarek.github.io/MedOrqis/"><img src="https://img.shields.io/badge/Live%20Catalog-GitHub%20Pages-00e5a3?style=flat-square&logo=google-chrome&logoColor=white" alt="Live Catalog" /></a>
+        <a href="https://www.npmjs.com/package/medorqis"><img src="https://img.shields.io/badge/npm-v2.1.1-cb3837?style=flat-square&logo=npm&logoColor=white" alt="npm" /></a>
+        <a href="https://github.com/seotarek/MedOrqis"><img src="https://img.shields.io/badge/Skills%20CLI-npx%20skills%20add-6366f1?style=flat-square&logo=vercel&logoColor=white" alt="Skills CLI" /></a>
+        <a href="https://github.com/seotarek/MedOrqis/blob/main/tests/reports/VERIFICATION_REPORT.md"><img src="https://img.shields.io/badge/Tests-36%2F36%20Passed-10b981?style=flat-square" alt="36/36 Passed" /></a>
       </p>
       <p><strong>Evidence-Grounded Medical AI Skills Ecosystem</strong></p>
       <p>Modular clinical informatics ecosystem featuring <strong>24 risk-stratified medical AI skills</strong> (IEC 62304 Class A/B/C), 12 zero-token deterministic clinical calculators (ESC 2024 CHA₂DS₂-VA, CKD-EPI 2021, Bedside Schwartz, NEWS2, HAS-BLED, DDI Engine), epistemic provenance locks, and 126-case multilingual negation benchmarks.</p>
@@ -82,6 +95,12 @@
     </td>
     <td width="50%" valign="top">
       <h3>📱 <a href="https://github.com/seotarek/kashef-scam-shield">Kashef (كاشف) — Scam Shield</a></h3>
+      <p>
+        <a href="https://github.com/seotarek/kashef-scam-shield"><img src="https://img.shields.io/badge/Platform-Android%20Native-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" /></a>
+        <a href="https://github.com/seotarek/kashef-scam-shield"><img src="https://img.shields.io/badge/Kotlin-Jetpack%20Compose-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" /></a>
+        <a href="https://github.com/seotarek/kashef-scam-shield"><img src="https://img.shields.io/badge/Privacy-100%25%20On--Device-0ea5e9?style=flat-square" alt="Zero-Knowledge" /></a>
+        <a href="https://github.com/seotarek/kashef-scam-shield"><img src="https://img.shields.io/badge/UI-Material%203%20RTL-f59e0b?style=flat-square" alt="Material 3" /></a>
+      </p>
       <p><strong>On-Device Zero-Knowledge Fraud &amp; Phishing Engine</strong></p>
       <p>Privacy-first Android security engine analyzing SMS, links, and social engineering patterns completely on-device with zero cloud telemetry. Built with clean architecture, Kotlin Coroutines, Jetpack Compose, and Material 3.</p>
       <p><code>Kotlin</code> · <code>Jetpack Compose</code> · <code>Android Security</code> · <code>Zero-Knowledge</code></p>
