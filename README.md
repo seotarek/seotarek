@@ -6,6 +6,7 @@
 
 <div align="center">
   <a href="https://tarek-mohamed.me.eg"><img src="https://img.shields.io/badge/Website-tarek--mohamed.me.eg-2563eb?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
+  <a href="https://www.linkedin.com/in/seotarek/"><img src="https://img.shields.io/badge/LinkedIn-seotarek-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://doi.org/10.5281/zenodo.22731104"><img src="https://img.shields.io/badge/Research_DOI-10.5281%2Fzenodo.22731104-0d9488?style=flat-square&logo=doi&logoColor=white" alt="DOI" /></a>
   <a href="https://pypi.org/project/lightguard-agent/"><img src="https://img.shields.io/badge/PyPI-lightguard--agent_v0.3.0-3775A9?style=flat-square&logo=pypi&logoColor=white" alt="PyPI" /></a>
   <a href="https://www.npmjs.com/package/medorqis"><img src="https://img.shields.io/badge/npm-medorqis_v2.1.1-cb3837?style=flat-square&logo=npm&logoColor=white" alt="npm" /></a>
@@ -235,6 +236,10 @@ I partner with engineering organizations, healthcare innovators, and technology 
 <p align="center">
   <a href="https://tarek-mohamed.me.eg/start-project">
     <img src="https://img.shields.io/badge/Start_a_Project-tarek--mohamed.me.eg-2563eb?style=for-the-badge&logo=rocket&logoColor=white" alt="Start a Project" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/seotarek/">
+    <img src="https://img.shields.io/badge/LinkedIn-seotarek-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="https://discord.com/users/568723296326254613">
