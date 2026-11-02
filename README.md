@@ -78,7 +78,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22731104.svg)](https://doi.org/10.5281/zenodo.22731104)
 [![PyPI](https://img.shields.io/badge/PyPI-v0.3.0-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/lightguard-agent/)
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Playground-Hugging%20Face-f59e0b?style=flat-square)](https://huggingface.co/spaces/seotarek/LightGuard-Agent)
+[![Hugging Face Spaces](https://img.shields.io/badge/Playground-Hugging%20Face-f59e0b?style=flat-square)](https://huggingface.co/spaces/seotarek/LightGuard-Agent)
 [![Docs](https://img.shields.io/badge/Docs-GitHub%20Pages-0d9488?style=flat-square&logo=google-chrome&logoColor=white)](https://seotarek.github.io/LightGuard-Agent/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
@@ -112,7 +112,7 @@
 <a id="categorized-portfolio"></a>
 ## Categorized Portfolio &amp; Repositories
 
-### 🛡️ AI &amp; Agent Security
+### AI & Agent Security
 
 | Repository | Description &amp; Highlights | Stack | Links |
 | :--- | :--- | :--- | :--- |
@@ -124,7 +124,7 @@
 
 ---
 
-### ⚙️ Systems Engineering
+### Systems Engineering
 
 | Repository | Description &amp; Highlights | Stack | Links |
 | :--- | :--- | :--- | :--- |
@@ -135,7 +135,7 @@
 
 ---
 
-### 🔌 MCP &amp; Data Infrastructure
+### MCP & Data Infrastructure
 
 | Repository | Description &amp; Highlights | Stack | Links |
 | :--- | :--- | :--- | :--- |
@@ -147,7 +147,7 @@
 
 ---
 
-### ☁️ Backend &amp; Cloud Infrastructure
+### Backend & Cloud Infrastructure
 
 | Repository | Description &amp; Highlights | Stack | Links |
 | :--- | :--- | :--- | :--- |
@@ -158,7 +158,7 @@
 
 ---
 
-### 🧰 Developer Tools &amp; Mobile
+### Developer Tools & Systems Utilities
 
 | Repository | Description &amp; Highlights | Stack | Links |
 | :--- | :--- | :--- | :--- |
